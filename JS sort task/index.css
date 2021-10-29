@@ -1,0 +1,27 @@
+
+.button{
+    
+    width: 60px;
+    margin: 5px;
+}
+#cont { 
+    display: flex; 
+    flex-wrap: wrap;
+  } 
+ 
+  .square { 
+    position: relative; 
+    width: 100px; 
+    height: 100px; 
+    background-color: wheat; 
+    margin: 24px; 
+    font-size: 20px; 
+    text-align: center; 
+    line-height: 100px; 
+  } 
+  .remove { 
+    position: absolute; 
+    background-color: red; 
+    top: 0; 
+    right: 0;  
+  }
